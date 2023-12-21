@@ -1,0 +1,155 @@
+.wireframe {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    border-radius:50%;
+    overflow:hidden;
+  }
+  
+  
+
+ 
+  
+  .wireframe:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+  }
+
+  .wireframe .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1000px;
+    height: 981.78px;
+    position: relative;
+  }
+  
+  .wireframe .overlap {
+    position: absolute;
+    width: 1120px;
+    height: 1349px;
+    top: -286px;
+    left: -77px;
+  }
+  
+  .wireframe .overlap-group {
+    position: absolute;
+    width: 1120px;
+    height: 854px;
+    top: 495px;
+    left: 0;
+  }
+  
+  .wireframe .overlap-2 {
+    position: absolute;
+    width: 387px;
+    height: 779px;
+    top: 0;
+    left: 0;
+  }
+  
+  .wireframe .rectangle {
+    position: absolute;
+    width: 365px;
+    height: 581px;
+    top: 198px;
+    border-radius:50%;
+    left: 0;
+    background-color: #00b2ff;
+  }
+  
+  .wireframe .noto-trophy {
+    position: absolute;
+    width: 205px;
+    height: 205px;
+    top: 0;
+    left: 182px;
+  }
+  
+  .wireframe .overlap-group-2 {
+    position: absolute;
+    width: 755px;
+    height: 712px;
+    top: 142px;
+    left: 365px;
+  }
+  
+  .wireframe .rectangle-2 {
+    position: absolute;
+    width: 365px;
+    height: 755px;
+    top: 152px;
+    left: 195px;
+  
+    background-color: #f2d32b;
+    transform: rotate(-90deg);
+  }
+  
+  .wireframe .ellipse {
+    position: absolute;
+    width: 248px;
+    height: 269px;
+    top: 347px;
+    left: 464px;
+  }
+  
+  .wireframe .solution-challenge {
+    position: absolute;
+    top: 0;
+    left: 129px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .wireframe .rectangle-3 {
+    position: absolute;
+    width: 112px;
+    height: 109px;
+    top: 475px;
+    left: 177px;
+    border: 1px solid;
+    border-color: #1b7413;
+  }
+  
+  .wireframe .rectangle-4 {
+    position: absolute;
+    width: 30px;
+    height: 29px;
+    top: 555px;
+    left: 259px;
+    background-color: #1b7413;
+    border: 1px solid;
+  }
+
+
+
+
+
+  
+  
+  .wireframe .rectangle-5 {
+    position: absolute;
+    width: 417px;
+    height: 581px;
+    top: 0;
+    left: 703px;
+    background-color: #00b2ff;
+    transform: rotate(180deg);
+  }
+  
+  .wireframe .ellipse-2 {
+    position: absolute;
+    width: 209px;
+    height: 209px;
+    top: 0;
+    left: 417px;
+    background-color: #1b7413;
+    border-radius: 104.5px;
+  }
+  
